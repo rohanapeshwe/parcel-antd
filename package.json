@@ -1,0 +1,37 @@
+{
+  "name": "parcel-antd",
+  "version": "1.0.0",
+  "description": "Using antd with Parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanapeshwe/parcel-antd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanapeshwe/parcel-antd/issues"
+  },
+  "homepage": "https://github.com/rohanapeshwe/parcel-antd#readme",
+  "dependencies": {
+    "antd": "^4.0.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "babel-plugin-import": "^1.13.0",
+    "less": "^3.11.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "postcss-modules": "^1.5.0"
+  }
+}
